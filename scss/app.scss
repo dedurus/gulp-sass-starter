@@ -1,0 +1,7 @@
+@import "scss/mixins", "scss/_palettetown", "scss/colors";
+
+@include palette-town($belize_hole, shade);
+
+body{
+    background: $color-primary;
+}
