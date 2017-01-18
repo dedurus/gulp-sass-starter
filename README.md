@@ -60,6 +60,7 @@ Simply run
 ```
 and voilà. You are ready to go live!
 This task will perform following actions in ordered sequence:
+
 1. run the **css** and **js** tasks in parallel
 2. run the **html** task after
 3. add newly generated CSS and JS files with appropriate version to all HTML files in root
