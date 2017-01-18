@@ -82,5 +82,5 @@ For fine grained source and destination paths, edit **src** and **dest** variabl
 ### PRs welcomed!
 
 
-** Licence
+### Licence
 MIT
