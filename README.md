@@ -59,16 +59,18 @@ Simply run
     gulp default
 ```
 and voilà. You are ready to go live!
-This task runs the 'css' and 'js' tasks in parallel and the 'html' task after they have finished, and minifies HTML,CSS and JS
+This task runs the **css** and **js** tasks in parallel and the **html** task after they have finished, and minifies HTML, CSS and JS
 
 Each taks will log any error encountered and inform you in the console.
 
+#### Configuration
 For fine grained source and destination paths, edit **src** and **dest** variables inside **gulpfile.js**
 
 
 ### TODO
 * Add more usefull mixins, and maybe include Bootstrap v4 as a possibiilty
 * Add hot loading because pressing F5 all the time is so boring
+* Add confniguration feature that will enable sequentual order of minimized and concatinated CSS files. Currently, CSS files are concatinated in alphabetical order, which may be problematic due to overriding styles
 
 
 ### Changelog
