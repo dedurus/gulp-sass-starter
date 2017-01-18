@@ -24,41 +24,53 @@ First, you need to put all the SASS (SCSS) files inside **sass** folder, JavaScr
 Do whatever you want with your SCSS, JS and HTML.
 Run the following tasks to get the desired results:
 
-**** Watch for changes in SCSS
-```gulp watch``
+#### Watch for changes in SCSS
+```
+    gulp watch
+```
 This will look up for any saved changes for any files with **.scss** extension in *scss* folder, and automatically generate a CSS file named **app.css** inside *css* folder
 
-**** Manually convert SCSS to CSS
-```gulp styles```
+#### Manually convert SCSS to CSS
+```
+    gulp styles
+```
 Convert all **.scss** files inside *scss* folder into usable CSS inside *css* folder
 
-**** Concatenate, minify and version CSS
-```gulp css```
+#### Concatenate, minify and version CSS
+```
+    gulp css
+```
 Running this task will put all code from CSS files inside the *css* folder into one file named **app.css** and add versioning to it
 
-**** Concatenate, minify and version JS
-```gulp js```
+#### Concatenate, minify and version JS
+```
+    gulp js
+```
 This task will put all code from JS files inside the *js* folder into one file named **app.js** and add versioning to it
 
-**** Insert minified and concatinated CSS and JS and minify HTML
-```gulp html```
+#### Insert minified and concatinated CSS and JS and minify HTML
+```
+    gulp html
+```
 
-**** Ready for production?
+#### Ready for production?
 Run
-```gulp default```
+```
+    gulp default
+```
 This task runs the 'css' and 'js' tasks in parallel and the 'html' task after they have finished, and minifies HTML,CSS and JS
 
 Each taks will log any error encountered and inform you in the console.
 
 For fine grained source and destination paths, edit **src** and **dest** variables inside **gulpfile.js**
 
-*** Changelog
+### Changelog
 
-**** v0.2
+#### v0.2
 * Added **colors.scss** mixin
 * Added **_palettetown.scss** mixin
 
-****v0.1
+####v0.1
 * Added **watch** task
 * Added **js** task
 * Added **css** task
@@ -67,7 +79,7 @@ For fine grained source and destination paths, edit **src** and **dest** variabl
 * Added **default** task
 
 
-*** PRs welcomed!
+### PRs welcomed!
 
 
 ** Licence
